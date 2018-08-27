@@ -109,11 +109,20 @@
                                 รายการสินค้า
                             </div>
                             <div class="card-body">
+
+                                <!-- <div class="suggestive-search-box">
+                                    <div class="box-search">
+                                        <div class="ele-search2 w-100"><i class="fa fa-search"></i> <input type="text" placeholder="ค้นหาสินค้า" class="ele-search2-input"></div>
+                                    </div>
+                                </div> -->
+
+                                <input class="typeahead form-control mb-4" placeholder="ค้นหารายการสินค้า">
+
+
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered table-hover">
                                         <thead>
                                             <tr>
-                                                <th style="width:200px"></th>
                                                 <th>ลำดับ</th>
                                                 <th><a style="color:black" href="http://promptchai-laravel.local/inventory/product?search=&amp;field=barcode&amp;sort=desc">รหัสสินค้า</a></th>
                                                 <th><a style="color:black" href="http://promptchai-laravel.local/inventory/product?search=&amp;field=name&amp;sort=desc">ชื่อสินค้า</a></th>
@@ -132,14 +141,11 @@
                                                         <span>หน่วย</span>
                                                     </div>
                                                 </th>
+                                                <th style="width:200px"></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>
-                                                    <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">แก้ไข</a>
-                                                    <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">ลบ</a>
-                                                </td>
                                                 <td>
                                                     <span>1</span>
                                                 </td>
@@ -158,12 +164,13 @@
                                                 <td>
                                                     <span>แกลลอน</span>
                                                 </td>
-                                            </tr>
-                                            <tr>
                                                 <td>
                                                     <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">แก้ไข</a>
                                                     <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">ลบ</a>
                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                
                                                 <td>
                                                     <span>2</span>
                                                 </td>
@@ -182,12 +189,13 @@
                                                 <td>
                                                     <span>แกลลอน</span>
                                                 </td>
-                                            </tr>
-                                            <tr>
                                                 <td>
                                                     <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">แก้ไข</a>
                                                     <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">ลบ</a>
                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                
                                                 <td>
                                                     <span>3</span>
                                                 </td>
@@ -205,6 +213,10 @@
                                                 </td>
                                                 <td>
                                                     <span>ถัง</span>
+                                                </td>
+                                                <td>
+                                                    <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">แก้ไข</a>
+                                                    <a href="http://promptchai-laravel.local/inventory/updateproduct/1" class="btn btn-primary">ลบ</a>
                                                 </td>
                                             </tr>
                 
